@@ -50,27 +50,32 @@ Dairy, Produce and Meat
 	Each is a subclass of GroceryItem. GroceryItems have more specific information associated with them, depending upon their type (subclass). Note that the constructor actually takes an input line that has been read from a file.  The line will have data specific to its type, which is why it is sent to the subclass. Remember that the constructor which read the line can parse it and then call the other constructor in the subclass.
 Below are the public interfaces
 	Dairy:
-	Dairy(String name, , int quantity, double price, int refrigerationTemperature); // use super
-	Dairy(String inputLine); // takes file input line, parses and sets data
-	void setRefrigerationTemperature(int temp);
-	int getRefrigerationTemperature();
-	Produce
-	Produce(String name, , int quantity, double price, boolean isOrganic); // use super
-	Produce (String inputLine); // takes file input line, parses and sets data
-	void setIsOrganic(boolean organic);
-	boolean getIsOrganic();
-	Meat
-	Meat(String name, int quantity, double price, boolean isGround); // use super
-	Meat(String inputLine); // takes file input line, parses and sets data
-	void setIsGround(boolean ground);
-	boolean getIsGround();
+	Dairy(String name, , int quantity, double price, int refrigerationTemperature); // use super
+	Dairy(String inputLine); // takes file input line, parses and sets data
+	void setRefrigerationTemperature(int temp);
+	int getRefrigerationTemperature();
+	
+	Produce:
+	Produce(String name, , int quantity, double price, boolean isOrganic); // use super
+	Produce (String inputLine); // takes file input line, parses and sets data
+	void setIsOrganic(boolean organic);
+	boolean getIsOrganic();
+	
+	Meat:
+	Meat(String name, int quantity, double price, boolean isGround); // use super
+	Meat(String inputLine); // takes file input line, parses and sets data
+	void setIsGround(boolean ground);
+	boolean getIsGround();
 	
 GroceryOrder – extends ArrayList<T>, limiting T to type GroceryItem
 	No further methods.  Use Java ArrayList 
+	
 GroceryManager – pulls the whole thing together
 	Contains two private collections:
-	ArrayList< GroceryItem >  inventory – the store’s current inventory
-	HashSet<String>  restockingList – names of items that need to be reordered/restocked. Entries are unique (HashList does this for you).
+	ArrayList< GroceryItem >  inventory – the store’s current inventory
+	HashSet<String>  restockingList – names of items that need to be reordered/restocked. Entries are unique (HashList does this for you).
+	
+	
 	Public methods:
 •	Void loadInventory(String filename) // reads input and populates inventory
 o	Calls appropriate constructor with input line.
@@ -81,18 +86,22 @@ o	Return null if not found
 •	void sortInventoryByName(); 	// Use BubbleSort, and use compareTo()
 •	void sortInventoryByPrice()	// Use InsertionSort.  Will compare without compareTo()
 •	void displayRestockingList() 	// print the list of items that need to be restocked.  
-•	void displayInventory()  		// list inventory with all their class-specific data. Line up columns for readability. Use overloads of toString() from each class. Example:
+•	void displayInventory()  	// list inventory with all their class-specific data. Line up columns for readability. Use overloads of toString() from each class. 
+
+	Example:
 Name: yogurt    Quantity: 0    Price: $7.46     temperature: 34
 Name: apples    Quantity: 48   Price: $0.82     organic: true
 Name: chicken   Quantity: 9	   Price: $5.29     isGround: false
 
 See separate file: Grocery Manager Sample Output.docx for longer example.
+
 Data Files
 groceryInventory.txt
 •	The input file starts with 3 integers, representing the number of Dairy, Produce, and Meat items to follow.  
 •	Each line has the
 o	 type, name, quantity, price and one type-specific datum
 •	You may assume the data is properly formatted.
+
 groceryOrders.txt
 •	Each order starts with the word Order on a line
 •	Other lines have the type, name, and quantity of an item in the order
