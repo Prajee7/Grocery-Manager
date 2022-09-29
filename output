@@ -1,0 +1,153 @@
+Expected Output
+
+
+******** Initial Inventory ********
+Name: eggs               Quantity: 13      Price: $ 4.96 Temperature: 34
+Name: butter             Quantity: 56      Price: $ 0.77 Temperature: 34
+Name: yogurt             Quantity: 2       Price: $13.46 Temperature: 34
+Name: milk               Quantity: 47      Price: $16.91 Temperature: 34
+Name: cheddar_cheese     Quantity: 79      Price: $10.77 Temperature: 34
+Name: kefir              Quantity: 13      Price: $18.96 Temperature: 34
+Name: sour_cream         Quantity: 12      Price: $19.76 Temperature: 34
+Name: ice_cream          Quantity: 38      Price: $11.21 Temperature: 34
+Name: parmesan           Quantity: 20      Price: $ 5.00 Temperature: 34
+Name: cream              Quantity: 77      Price: $ 6.79 Temperature: 34
+Name: monterey_jack      Quantity: 61      Price: $12.54 Temperature: 34
+Name: cream_cheese       Quantity: 20      Price: $ 0.64 Temperature: 34
+Name: lettuce            Quantity: 1       Price: $ 0.80 Organic: true
+Name: apples             Quantity: 52      Price: $ 0.82 Organic: true
+Name: oranges            Quantity: 65      Price: $ 4.58 Organic: true
+Name: brussel_sprouts    Quantity: 29      Price: $ 3.66 Organic: true
+Name: spinach            Quantity: 69      Price: $ 7.56 Organic: true
+Name: bananas            Quantity: 60      Price: $ 3.06 Organic: true
+Name: pears              Quantity: 3       Price: $ 9.53 Organic: true
+Name: cucumbers          Quantity: 37      Price: $ 9.67 Organic: true
+Name: pomegranite        Quantity: 1       Price: $ 3.43 Organic: true
+Name: blueberries        Quantity: 40      Price: $ 2.55 Organic: true
+Name: grapes             Quantity: 28      Price: $ 8.24 Organic: true
+Name: kale               Quantity: 62      Price: $ 2.04 Organic: true
+Name: broccoli           Quantity: 53      Price: $ 1.28 Organic: true
+Name: chicken            Quantity: 59      Price: $ 9.99 Ground: true
+Name: beef               Quantity: 74      Price: $17.55 Ground: true
+Name: lamb               Quantity: 19      Price: $ 6.54 Ground: true
+Name: turkey             Quantity: 13      Price: $21.04 Ground: true
+
+******** Processing Orders ********
+Out of lettuce
+Out of yogurt
+Out of pomegranite
+Out of pomegranite
+Out of pomegranite
+Out of lettuce
+Out of lettuce
+Out of sour_cream
+Out of pomegranite
+Out of yogurt
+Out of cream_cheese
+Out of sour_cream
+Out of cream_cheese
+Out of sour_cream
+Out of lettuce
+Out of lettuce
+Out of lamb
+Out of sour_cream
+Name: eggs               Quantity: 3       Price: $ 4.96 Temperature: 34
+Name: butter             Quantity: 38      Price: $ 0.77 Temperature: 34
+Name: yogurt             Quantity: 0       Price: $13.46 Temperature: 34
+Name: milk               Quantity: 38      Price: $16.91 Temperature: 34
+Name: cheddar_cheese     Quantity: 70      Price: $10.77 Temperature: 34
+Name: kefir              Quantity: 5       Price: $18.96 Temperature: 34
+Name: sour_cream         Quantity: 0       Price: $19.76 Temperature: 34
+Name: ice_cream          Quantity: 19      Price: $11.21 Temperature: 34
+Name: parmesan           Quantity: 20      Price: $ 5.00 Temperature: 34
+Name: cream              Quantity: 60      Price: $ 6.79 Temperature: 34
+Name: monterey_jack      Quantity: 61      Price: $12.54 Temperature: 34
+Name: cream_cheese       Quantity: 0       Price: $ 0.64 Temperature: 34
+Name: lettuce            Quantity: 0       Price: $ 0.80 Organic: true
+Name: apples             Quantity: 48      Price: $ 0.82 Organic: true
+Name: oranges            Quantity: 47      Price: $ 4.58 Organic: true
+Name: brussel_sprouts    Quantity: 29      Price: $ 3.66 Organic: true
+Name: spinach            Quantity: 69      Price: $ 7.56 Organic: true
+Name: bananas            Quantity: 57      Price: $ 3.06 Organic: true
+Name: pears              Quantity: 3       Price: $ 9.53 Organic: true
+Name: cucumbers          Quantity: 14      Price: $ 9.67 Organic: true
+Name: pomegranite        Quantity: 0       Price: $ 3.43 Organic: true
+Name: blueberries        Quantity: 24      Price: $ 2.55 Organic: true
+Name: grapes             Quantity: 22      Price: $ 8.24 Organic: true
+Name: kale               Quantity: 51      Price: $ 2.04 Organic: true
+Name: broccoli           Quantity: 10      Price: $ 1.28 Organic: true
+Name: chicken            Quantity: 32      Price: $ 9.99 Ground: true
+Name: beef               Quantity: 55      Price: $17.55 Ground: true
+Name: lamb               Quantity: 0       Price: $ 6.54 Ground: true
+Name: turkey             Quantity: 7       Price: $21.04 Ground: true
+
+******** Sort by name ********
+Name: apples             Quantity: 48      Price: $ 0.82 Organic: true
+Name: bananas            Quantity: 57      Price: $ 3.06 Organic: true
+Name: beef               Quantity: 55      Price: $17.55 Ground: true
+Name: blueberries        Quantity: 24      Price: $ 2.55 Organic: true
+Name: broccoli           Quantity: 10      Price: $ 1.28 Organic: true
+Name: brussel_sprouts    Quantity: 29      Price: $ 3.66 Organic: true
+Name: butter             Quantity: 38      Price: $ 0.77 Temperature: 34
+Name: cheddar_cheese     Quantity: 70      Price: $10.77 Temperature: 34
+Name: chicken            Quantity: 32      Price: $ 9.99 Ground: true
+Name: cream              Quantity: 60      Price: $ 6.79 Temperature: 34
+Name: cream_cheese       Quantity: 0       Price: $ 0.64 Temperature: 34
+Name: cucumbers          Quantity: 14      Price: $ 9.67 Organic: true
+Name: eggs               Quantity: 3       Price: $ 4.96 Temperature: 34
+Name: grapes             Quantity: 22      Price: $ 8.24 Organic: true
+Name: ice_cream          Quantity: 19      Price: $11.21 Temperature: 34
+Name: kale               Quantity: 51      Price: $ 2.04 Organic: true
+Name: kefir              Quantity: 5       Price: $18.96 Temperature: 34
+Name: lamb               Quantity: 0       Price: $ 6.54 Ground: true
+Name: lettuce            Quantity: 0       Price: $ 0.80 Organic: true
+Name: milk               Quantity: 38      Price: $16.91 Temperature: 34
+Name: monterey_jack      Quantity: 61      Price: $12.54 Temperature: 34
+Name: oranges            Quantity: 47      Price: $ 4.58 Organic: true
+Name: parmesan           Quantity: 20      Price: $ 5.00 Temperature: 34
+Name: pears              Quantity: 3       Price: $ 9.53 Organic: true
+Name: pomegranite        Quantity: 0       Price: $ 3.43 Organic: true
+Name: sour_cream         Quantity: 0       Price: $19.76 Temperature: 34
+Name: spinach            Quantity: 69      Price: $ 7.56 Organic: true
+Name: turkey             Quantity: 7       Price: $21.04 Ground: true
+Name: yogurt             Quantity: 0       Price: $13.46 Temperature: 34
+
+******** Sort by price ********
+Name: cream_cheese       Quantity: 0       Price: $ 0.64 Temperature: 34
+Name: butter             Quantity: 38      Price: $ 0.77 Temperature: 34
+Name: lettuce            Quantity: 0       Price: $ 0.80 Organic: true
+Name: apples             Quantity: 48      Price: $ 0.82 Organic: true
+Name: broccoli           Quantity: 10      Price: $ 1.28 Organic: true
+Name: kale               Quantity: 51      Price: $ 2.04 Organic: true
+Name: blueberries        Quantity: 24      Price: $ 2.55 Organic: true
+Name: bananas            Quantity: 57      Price: $ 3.06 Organic: true
+Name: pomegranite        Quantity: 0       Price: $ 3.43 Organic: true
+Name: brussel_sprouts    Quantity: 29      Price: $ 3.66 Organic: true
+Name: oranges            Quantity: 47      Price: $ 4.58 Organic: true
+Name: eggs               Quantity: 3       Price: $ 4.96 Temperature: 34
+Name: parmesan           Quantity: 20      Price: $ 5.00 Temperature: 34
+Name: lamb               Quantity: 0       Price: $ 6.54 Ground: true
+Name: cream              Quantity: 60      Price: $ 6.79 Temperature: 34
+Name: spinach            Quantity: 69      Price: $ 7.56 Organic: true
+Name: grapes             Quantity: 22      Price: $ 8.24 Organic: true
+Name: pears              Quantity: 3       Price: $ 9.53 Organic: true
+Name: cucumbers          Quantity: 14      Price: $ 9.67 Organic: true
+Name: chicken            Quantity: 32      Price: $ 9.99 Ground: true
+Name: cheddar_cheese     Quantity: 70      Price: $10.77 Temperature: 34
+Name: ice_cream          Quantity: 19      Price: $11.21 Temperature: 34
+Name: monterey_jack      Quantity: 61      Price: $12.54 Temperature: 34
+Name: yogurt             Quantity: 0       Price: $13.46 Temperature: 34
+Name: milk               Quantity: 38      Price: $16.91 Temperature: 34
+Name: beef               Quantity: 55      Price: $17.55 Ground: true
+Name: kefir              Quantity: 5       Price: $18.96 Temperature: 34
+Name: sour_cream         Quantity: 0       Price: $19.76 Temperature: 34
+Name: turkey             Quantity: 7       Price: $21.04 Ground: true
+
+********  Restocking List ********
+yogurt
+sour_cream
+lamb
+lettuce
+pomegranite
+cream_cheese
+
